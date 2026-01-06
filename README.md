@@ -5,3 +5,4 @@ Learning PHP
 3.Condition and Desicion making
 4.HTML Forms
 5.Sanitization
+6.Superglobals
