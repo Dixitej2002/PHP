@@ -3,9 +3,9 @@
 // echo "Hello
 
 //warning
-// echo $name;
+echo $name;
 
 // call the unknown function which is not declare yet
 //uncaught error
-yu();
+// yu();
 ?>
