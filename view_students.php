@@ -24,6 +24,12 @@ while($row = mysqli_fetch_assoc($result)){
         <td><?php echo $row['name']; ?></td>
         <td><?php echo $row['email']; ?></td>
         <td><?php echo $row['created_at']; ?></td>
+        <td>
+            <a href="edit.php?id=<?= $row['id'];?>">Edit</a>
+        </td>
+        <td>
+            <a href="delete.php?id=<?= $row['id']; ?>">Delete</a>
+        </td>
     </tr>
     <?php } ?>
     
